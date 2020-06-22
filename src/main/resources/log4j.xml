@@ -29,7 +29,7 @@
     </logger>
 
     <logger name="jdbc.resultset">
-        <level value="warn" />
+        <level value="info" />
     </logger>
 
     <logger name="org.springframework.web">
@@ -37,21 +37,21 @@
     </logger>
 
     <logger name="jdbc.audit">
-        <level value="warn"/>
+        <level value="info"/>
     </logger>
 
     <logger name="jdbc.sqltiming">
-        <level value="warn"/>
+        <level value="info"/>
     </logger>
     <logger name="jdbc.sqlonly">
-        <level value="warn"/>
+        <level value="info"/>
     </logger>
     <logger name="jdbc.resultsettable">
-        <level value="warn"/>
+        <level value="info"/>
     </logger>
 
     <logger name="jdbc.connection">
-        <level value="warn"/>
+        <level value="info"/>
     </logger>
     <!-- Root Logger -->
     <root>
