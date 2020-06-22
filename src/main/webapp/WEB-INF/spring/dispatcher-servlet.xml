@@ -10,7 +10,7 @@
     <!-- @Controller, @Autowired, @RequestMapping 등을 사용할 수 있음-->
     <annotation-driven/>
 
-    <resources mapping="/resources/**" location="/WEB-INF/resources/"/>
+    <resources mapping="/resources/**" location="/resources/" />
 
     <!-- @Controller가 렌더링하기 위해 선택한 뷰를 jsp로 연결 -->
     <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
