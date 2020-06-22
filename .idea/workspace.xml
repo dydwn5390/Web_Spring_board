@@ -25,11 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2636afcc-2125-424e-b434-208296eb8931" name="Default Changelist" comment="3.9장 까지의 실습">
-      <change beforePath="$PROJECT_DIR$/.idea/Springframework_board.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Springframework_board.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27586207" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -493,7 +489,7 @@
       <workItem from="1592444477996" duration="1225000" />
       <workItem from="1592466945919" duration="14188000" />
       <workItem from="1592544118456" duration="10561000" />
-      <workItem from="1592786229735" duration="9705000" />
+      <workItem from="1592786229735" duration="10100000" />
     </task>
     <task id="LOCAL-00001" summary="3.9장 까지의 실습">
       <created>1592786991646</created>
@@ -509,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592787395265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3.9장 까지의 실습">
+      <created>1592801118846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592801118846</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,14 +595,14 @@
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="2976" y="553" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592542049123" />
-    <state x="3310" y="545" key="FileChooserDialogImpl" timestamp="1592787330820">
+    <state x="3310" y="545" key="FileChooserDialogImpl" timestamp="1592800864526">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3310" y="545" key="FileChooserDialogImpl/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592787330820" />
-    <state x="3315" y="675" key="Github.ShareDialog" timestamp="1592555163400">
+    <state x="3310" y="545" key="FileChooserDialogImpl/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592800864526" />
+    <state x="3315" y="675" key="Github.ShareDialog" timestamp="1592801064237">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3315" y="675" key="Github.ShareDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592555163400" />
+    <state x="3315" y="675" key="Github.ShareDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592801064237" />
     <state x="3115" y="475" key="Github.UntrackedFilesDialog" timestamp="1592298040650">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
@@ -676,10 +679,10 @@
     <state width="1252" height="211" key="GridCell.Tab.2.right/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
     <state width="1612" height="356" key="GridCell.Tab.2.right/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592800791747" />
     <state width="1294" height="290" key="GridCell.Tab.2.right/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866635" />
-    <state x="2785" y="342" width="1314" height="846" key="SettingsEditor" timestamp="1592793491277">
+    <state x="2785" y="342" width="1314" height="846" key="SettingsEditor" timestamp="1592801222611">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="2785" y="342" width="1314" height="846" key="SettingsEditor/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592793491277" />
+    <state x="2785" y="342" width="1314" height="846" key="SettingsEditor/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592801222611" />
     <state x="1888" y="24" key="SettingsEditor/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211606088" />
     <state x="3010" y="656" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592471557466">
       <screen x="2560" y="258" width="1920" height="1040" />
@@ -689,10 +692,10 @@
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="3129" y="435" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592296526515" />
-    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592787042707">
+    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592801130771">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592787042707" />
+    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592801130771" />
     <state x="3525" y="573" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592529296497">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
