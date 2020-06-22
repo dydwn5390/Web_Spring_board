@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="intellij-springframework-template-master" />
+        <module name="Springframework_board" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="intellij-springframework-template-master" target="1.8" />
+      <module name="Springframework_board" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="intellij-springframework-template-master" options="-Xlint:all" />
+      <module name="Springframework_board" options="-Xlint:all" />
     </option>
   </component>
 </project>

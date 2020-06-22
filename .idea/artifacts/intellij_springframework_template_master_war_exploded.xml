@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="intellij-springframework-template-master" />
+          <element id="module-output" name="Springframework_board" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.tika:tika-core:1.22" />
@@ -179,7 +179,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/board-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="intellij-springframework-template-master/web/Web" />
+      <element id="javaee-facet-resources" facet="Springframework_board/web/Web" />
     </root>
   </artifact>
 </component>

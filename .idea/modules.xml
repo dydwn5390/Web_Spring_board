@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/intellij-springframework-template-master.iml" filepath="$PROJECT_DIR$/.idea/intellij-springframework-template-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Springframework_board.iml" filepath="$PROJECT_DIR$/.idea/Springframework_board.iml" />
     </modules>
   </component>
 </project>
