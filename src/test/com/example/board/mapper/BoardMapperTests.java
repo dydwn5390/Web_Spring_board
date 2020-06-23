@@ -2,6 +2,8 @@ package com.example.board.mapper;
 
 import com.example.board.domain.BoardVO;
 
+import java.util.List;
+import com.example.board.domain.Criteria;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import lombok.extern.log4j.Log4j;
@@ -11,7 +13,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("file:../../../../../main/webapp/WEB-INF/spring/applicationContext.xml")
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/applicationContext.xml")
 @Log4j
 
 public class BoardMapperTests {
@@ -59,6 +61,18 @@ public class BoardMapperTests {
         int count = mapper.update(board);
         log.info("UPDATE COUNT: "+ count);
     }
+
+    @Test
+    public void testPaging(){
+        Criteria cri = new Criteria();
+        //10개씩 2페이지
+        cri.setAmount(10);
+        cri.setPageNum(1);
+
+        List<BoardVO> list = mapper.getListWithPaging(cri);
+        list.forEach(board->log.info(board.getBno()));
+    }
+
 
 
 }

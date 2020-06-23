@@ -20,8 +20,8 @@ import org.springframework.web.context.WebApplicationContext;
 @WebAppConfiguration
 
 @ContextConfiguration({
-        "file:../../../../../main/webapp/WEB-INF/spring/applicationContext.xml",
-        "file:../../../../../main/webapp/WEB-INF/spring/dispatcher-servlet.xml"
+        "file:src/main/webapp/WEB-INF/spring/applicationContext.xml",
+        "file:src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml"
         })
 @Log4j
 public class BoardControllerTests {
@@ -96,5 +96,15 @@ public class BoardControllerTests {
         ).andReturn().getModelAndView().getViewName();
 
         log.info(resultPage);
+    }
+
+    @Test
+    public void testListPaging() throws Exception{
+
+        log.info(mockMvc.perform(
+                MockMvcRequestBuilders.get("/board/list")
+                .param("pageNum","1")
+                .param("amount","50"))
+                .andReturn().getModelAndView().getModelMap());
     }
 }

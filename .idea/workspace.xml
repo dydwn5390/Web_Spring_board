@@ -26,6 +26,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2636afcc-2125-424e-b434-208296eb8931" name="Default Changelist" comment="3.11 p230까지  완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/mapper/BoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/service/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mybatis/mappers/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mybatis/mappers/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/example/board/contoller/BoardControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/example/board/contoller/BoardControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/example/board/mapper/BoardMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/example/board/mapper/BoardMapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/example/board/service/BoardServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/example/board/service/BoardServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +115,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.SpringTest">
-    <configuration name="BoardControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardControllerTests.testListPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Springframework_board" />
       <extension name="coverage">
         <pattern>
@@ -115,38 +125,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.board.contoller" />
       <option name="MAIN_CLASS_NAME" value="com.example.board.contoller.BoardControllerTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardControllerTests.testModify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Springframework_board" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.board.contoller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.board.contoller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.board.contoller.BoardControllerTests" />
-      <option name="METHOD_NAME" value="testModify" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardControllerTests.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Springframework_board" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.board.contoller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.board.contoller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.board.contoller.BoardControllerTests" />
-      <option name="METHOD_NAME" value="testRegister" />
+      <option name="METHOD_NAME" value="testListPaging" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,17 +147,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardControllerTests.tetGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardMapperTests.testPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Springframework_board" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.board.contoller.*" />
+          <option name="PATTERN" value="com.example.board.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.board.contoller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.board.contoller.BoardControllerTests" />
-      <option name="METHOD_NAME" value="tetGet" />
+      <option name="PACKAGE_NAME" value="com.example.board.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.board.mapper.BoardMapperTests" />
+      <option name="METHOD_NAME" value="testPaging" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardMapperTests.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Springframework_board" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.board.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.board.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.board.mapper.BoardMapperTests" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardServiceTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Springframework_board" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.board.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.board.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.board.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -454,21 +465,21 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.BoardControllerTests" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
       <item itemvalue="Tomcat Server.SpringTest" />
-      <item itemvalue="JUnit.BoardControllerTests.testRegister" />
-      <item itemvalue="JUnit.BoardControllerTests.tetGet" />
-      <item itemvalue="JUnit.BoardControllerTests.testModify" />
       <item itemvalue="JUnit.BoardControllerTests.testRemove" />
+      <item itemvalue="JUnit.BoardMapperTests.testPaging" />
+      <item itemvalue="JUnit.BoardMapperTests.testUpdate" />
+      <item itemvalue="JUnit.BoardServiceTests.testDelete" />
+      <item itemvalue="JUnit.BoardControllerTests.testListPaging" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardControllerTests.testListPaging" />
+        <item itemvalue="JUnit.BoardMapperTests.testPaging" />
+        <item itemvalue="JUnit.BoardServiceTests.testDelete" />
+        <item itemvalue="JUnit.BoardMapperTests.testUpdate" />
         <item itemvalue="JUnit.BoardControllerTests.testRemove" />
-        <item itemvalue="JUnit.BoardControllerTests.testModify" />
-        <item itemvalue="JUnit.BoardControllerTests.tetGet" />
-        <item itemvalue="JUnit.BoardControllerTests.testRegister" />
-        <item itemvalue="JUnit.BoardControllerTests" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +500,7 @@
       <workItem from="1592444477996" duration="1225000" />
       <workItem from="1592466945919" duration="14188000" />
       <workItem from="1592544118456" duration="10561000" />
-      <workItem from="1592786229735" duration="11094000" />
+      <workItem from="1592786229735" duration="37643000" />
     </task>
     <task id="LOCAL-00001" summary="3.9장 까지의 실습">
       <created>1592786991646</created>
@@ -526,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592801566315</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3.11 p230까지  완료">
+      <created>1592802978762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592802978762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,99 +628,99 @@
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="2976" y="553" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592542049123" />
-    <state x="3310" y="545" key="FileChooserDialogImpl" timestamp="1592800864526">
+    <state x="3310" y="545" key="FileChooserDialogImpl" timestamp="1592803043116">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3310" y="545" key="FileChooserDialogImpl/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592800864526" />
-    <state x="3315" y="675" key="Github.ShareDialog" timestamp="1592801064237">
+    <state x="3310" y="545" key="FileChooserDialogImpl/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592803043116" />
+    <state x="3315" y="675" key="Github.ShareDialog" timestamp="1592803138327">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3315" y="675" key="Github.ShareDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592801064237" />
+    <state x="3315" y="675" key="Github.ShareDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592803138327" />
     <state x="3115" y="475" key="Github.UntrackedFilesDialog" timestamp="1592298040650">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="3115" y="475" key="Github.UntrackedFilesDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592298040650" />
-    <state width="1612" height="356" key="GridCell.Tab.0.bottom" timestamp="1592802076019">
+    <state width="1612" height="260" key="GridCell.Tab.0.bottom" timestamp="1592894365601">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076019" />
+    <state width="1612" height="260" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365601" />
     <state width="1294" height="290" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866805" />
-    <state width="1612" height="356" key="GridCell.Tab.0.center" timestamp="1592802076019">
+    <state width="1612" height="260" key="GridCell.Tab.0.center" timestamp="1592894365601">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.0.center/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.0.center/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076019" />
+    <state width="1612" height="260" key="GridCell.Tab.0.center/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365601" />
     <state width="1294" height="290" key="GridCell.Tab.0.center/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866804" />
-    <state width="1612" height="356" key="GridCell.Tab.0.left" timestamp="1592802076019">
+    <state width="1612" height="260" key="GridCell.Tab.0.left" timestamp="1592894365600">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.0.left/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055249" />
-    <state width="1612" height="356" key="GridCell.Tab.0.left/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076019" />
+    <state width="1612" height="260" key="GridCell.Tab.0.left/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365600" />
     <state width="1294" height="290" key="GridCell.Tab.0.left/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866803" />
-    <state width="1612" height="356" key="GridCell.Tab.0.right" timestamp="1592802076019">
+    <state width="1612" height="260" key="GridCell.Tab.0.right" timestamp="1592894365601">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.0.right/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.0.right/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076019" />
+    <state width="1612" height="260" key="GridCell.Tab.0.right/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365601" />
     <state width="1294" height="290" key="GridCell.Tab.0.right/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866805" />
-    <state width="1612" height="356" key="GridCell.Tab.1.bottom" timestamp="1592802076020">
+    <state width="1612" height="260" key="GridCell.Tab.1.bottom" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076020" />
+    <state width="1612" height="260" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.1.bottom/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866634" />
-    <state width="1612" height="356" key="GridCell.Tab.1.center" timestamp="1592802076019">
+    <state width="1612" height="260" key="GridCell.Tab.1.center" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.1.center/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.1.center/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076019" />
+    <state width="1612" height="260" key="GridCell.Tab.1.center/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.1.center/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866633" />
-    <state width="1612" height="356" key="GridCell.Tab.1.left" timestamp="1592802076019">
+    <state width="1612" height="260" key="GridCell.Tab.1.left" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.1.left/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.1.left/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076019" />
+    <state width="1612" height="260" key="GridCell.Tab.1.left/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.1.left/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866633" />
-    <state width="1612" height="356" key="GridCell.Tab.1.right" timestamp="1592802076020">
+    <state width="1612" height="260" key="GridCell.Tab.1.right" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.1.right/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.1.right/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076020" />
+    <state width="1612" height="260" key="GridCell.Tab.1.right/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.1.right/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866633" />
-    <state width="1612" height="356" key="GridCell.Tab.2.bottom" timestamp="1592802076020">
+    <state width="1612" height="260" key="GridCell.Tab.2.bottom" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.2.bottom/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.2.bottom/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076020" />
+    <state width="1612" height="260" key="GridCell.Tab.2.bottom/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.2.bottom/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866636" />
-    <state width="1612" height="356" key="GridCell.Tab.2.center" timestamp="1592802076020">
+    <state width="1612" height="260" key="GridCell.Tab.2.center" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.2.center/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.2.center/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076020" />
+    <state width="1612" height="260" key="GridCell.Tab.2.center/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.2.center/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866635" />
-    <state width="1612" height="356" key="GridCell.Tab.2.left" timestamp="1592802076020">
+    <state width="1612" height="260" key="GridCell.Tab.2.left" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.2.left/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.2.left/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076020" />
+    <state width="1612" height="260" key="GridCell.Tab.2.left/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.2.left/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866634" />
-    <state width="1612" height="356" key="GridCell.Tab.2.right" timestamp="1592802076020">
+    <state width="1612" height="260" key="GridCell.Tab.2.right" timestamp="1592894365439">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state width="1252" height="211" key="GridCell.Tab.2.right/0.0.1707.1027/2560.258.1920.1040@0.0.1707.1027" timestamp="1592469055250" />
-    <state width="1612" height="356" key="GridCell.Tab.2.right/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802076020" />
+    <state width="1612" height="260" key="GridCell.Tab.2.right/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592894365439" />
     <state width="1294" height="290" key="GridCell.Tab.2.right/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211866635" />
     <state x="2785" y="342" width="1314" height="846" key="SettingsEditor" timestamp="1592801222611">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="2785" y="342" width="1314" height="846" key="SettingsEditor/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592801222611" />
     <state x="1888" y="24" key="SettingsEditor/0.23.1440.821/1440.-86.1920.1057@1440.-86.1920.1057" timestamp="1592211606088" />
-    <state x="3112" y="511" key="Vcs.Push.Dialog.v2" timestamp="1592802156216">
+    <state x="3112" y="511" key="Vcs.Push.Dialog.v2" timestamp="1592802270249">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3112" y="511" key="Vcs.Push.Dialog.v2/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802156216" />
+    <state x="3112" y="511" key="Vcs.Push.Dialog.v2/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802270249" />
     <state x="2652" y="350" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592801551263">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
@@ -715,10 +733,10 @@
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="3129" y="435" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592296526515" />
-    <state x="3172" y="512" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1592801330626">
+    <state x="3172" y="512" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1592802548419">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3172" y="512" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592801330626" />
+    <state x="3172" y="512" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802548419" />
     <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592802029211">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
@@ -747,10 +765,10 @@
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="3176" y="369" key="run.anything.popup/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592792540604" />
-    <state x="3183" y="483" width="672" height="678" key="search.everywhere.popup" timestamp="1592293200566">
+    <state x="3183" y="483" width="672" height="678" key="search.everywhere.popup" timestamp="1592811129801">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3183" y="483" width="672" height="678" key="search.everywhere.popup/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592293200566" />
+    <state x="3183" y="483" width="672" height="678" key="search.everywhere.popup/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592811129801" />
     <state x="2709" y="573" key="spring file set editor" timestamp="1592295858363">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
@@ -767,6 +785,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/com/example/board/service/BoardServiceTests.java</url>
+          <line>63</line>
+          <properties class="com.example.board.service.BoardServiceTests" method="testUpdate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

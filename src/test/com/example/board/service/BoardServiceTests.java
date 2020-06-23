@@ -3,6 +3,7 @@ package com.example.board.service;
 import static org.junit.Assert.assertNotNull;
 
 import com.example.board.domain.BoardVO;
+import com.example.board.domain.Criteria;
 import lombok.extern.log4j.Log4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import lombok.Setter;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("file:../../../../../main/webapp/WEB-INF/spring/applicationContext.xml")
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/applicationContext.xml")
 @Log4j
 
 public class BoardServiceTests {
@@ -42,7 +43,8 @@ public class BoardServiceTests {
     @Test
     public void testGetList(){
 
-        service.getList().forEach(board->log.info(board));
+       // service.getList().forEach(board->log.info(board));
+        service.getList(new Criteria(2,10)).forEach(board->log.info(board));
     }
 
     @Test
