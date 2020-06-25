@@ -24,10 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2636afcc-2125-424e-b434-208296eb8931" name="Default Changelist" comment="3.14 p.324 까지 완료">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/controller/HomeController.java" afterDir="false" />
-    </list>
+    <list default="true" id="2636afcc-2125-424e-b434-208296eb8931" name="Default Changelist" comment="3.14 p.324 까지 완료" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -491,7 +488,7 @@
       <workItem from="1592444477996" duration="1225000" />
       <workItem from="1592466945919" duration="14188000" />
       <workItem from="1592544118456" duration="10561000" />
-      <workItem from="1592786229735" duration="57501000" />
+      <workItem from="1592786229735" duration="57815000" />
     </task>
     <task id="LOCAL-00001" summary="3.9장 까지의 실습">
       <created>1592786991646</created>
@@ -549,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592894832986</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="3.14 p.324 까지 완료">
+      <created>1593060040009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593060040009</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,10 +747,10 @@
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
     <state x="3172" y="512" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802548419" />
-    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592802029211">
+    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593060153738">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
-    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1592802029211" />
+    <state x="3325" y="691" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.1027/2560.258.1920.1040@2560.258.1920.1040" timestamp="1593060153738" />
     <state x="3525" y="573" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592529296497">
       <screen x="2560" y="258" width="1920" height="1040" />
     </state>
